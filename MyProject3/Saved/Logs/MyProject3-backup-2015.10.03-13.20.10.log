@@ -1,0 +1,1782 @@
+﻿[2015.10.03-16.54.01:267][  0]Log file open, 10/03/15 12:54:01
+[2015.10.03-16.54.01:267][  0]LogInit:Display: Running engine for game: MyProject3
+[2015.10.03-16.54.01:267][  0]LogInit:Display: RandInit(1004102165) SRandInit(1004102165).
+[2015.10.03-16.54.01:267][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.03-16.54.01:267][  0]LogStats: Stats thread started
+[2015.10.03-16.54.01:267][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.10.03-16.54.01:267][  0]LogInit: API Version: 2579680
+[2015.10.03-16.54.01:267][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.10.03-16.54.01:267][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.03-16.54.01:267][  0]LogInit: Build Configuration: Development
+[2015.10.03-16.54.01:267][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.10.03-16.54.01:267][  0]LogInit: Command line:  
+[2015.10.03-16.54.01:267][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.10.03-16.54.01:267][  0]LogInit: Rocket: 1
+[2015.10.03-16.54.01:317][  0]LogInit: Using libcurl 7.41.0
+[2015.10.03-16.54.01:317][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.03-16.54.01:317][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.03-16.54.01:317][  0]LogInit:  - other features:
+[2015.10.03-16.54.01:317][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.03-16.54.01:318][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.03-16.54.01:318][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.03-16.54.01:318][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.03-16.54.01:318][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.03-16.54.01:318][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.03-16.54.01:318][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.03-16.54.01:318][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.03-16.54.01:318][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.03-16.54.01:318][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.03-16.54.01:329][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.10.03-16.54.01:619][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.03-16.54.01:625][  0]LogInit: Object subsystem initialized
+[2015.10.03-16.54.01:627][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.10.03-16.54.01:627][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Zane/Documents/Unreal Projects/MyProject3/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.03-16.54.01:627][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.10.03-16.54.01:627][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Zane/Documents/Unreal Projects/MyProject3/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.03-16.54.01:627][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.10.03-16.54.01:627][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Zane/Documents/Unreal Projects/MyProject3/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.03-16.54.01:644][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.03-16.54.01:644][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.03-16.54.01:710][  0]LogInit: Computer: LOKI
+[2015.10.03-16.54.01:710][  0]LogInit: User: Zane
+[2015.10.03-16.54.01:710][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.03-16.54.01:711][  0]LogInit: High frequency timer resolution =2.338346 MHz
+[2015.10.03-16.54.01:711][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.10.03-16.54.01:711][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.03-16.54.01:711][  0]LogMemory: Process Physical Memory: 48.02 MB used, 48.02 MB peak
+[2015.10.03-16.54.01:711][  0]LogMemory: Process Virtual Memory: 22.38 MB used, 22.38 MB peak
+[2015.10.03-16.54.01:711][  0]LogMemory: Physical Memory: 5879.36 MB used, 8100.97 MB total
+[2015.10.03-16.54.01:711][  0]LogMemory: Virtual Memory: 292.09 MB used, 134217728.00 MB total
+[2015.10.03-16.54.02:328][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.10.03-16.54.02:619][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.10.03-16.54.03:322][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.10.03-16.54.03:322][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 2 output[s]
+[2015.10.03-16.54.03:336][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 765M  (Feature Level 11_0)
+[2015.10.03-16.54.03:336][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.10.03-16.54.03:347][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.03-16.54.03:347][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.10.03-16.54.03:347][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.03-16.54.03:370][  0]LogD3D11RHI: InitD3DDevice
+[2015.10.03-16.54.03:370][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.03-16.54.03:370][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.03-16.54.03:381][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.03-16.54.03:393][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.03-16.54.10:521][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.10.03-16.54.10:535][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.03-16.54.10:550][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.03-16.54.10:564][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.03-16.54.10:579][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.03-16.54.10:591][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.03-16.54.10:603][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.03-16.54.10:617][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.03-16.54.10:630][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.03-16.54.10:644][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.03-16.54.10:656][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.03-16.54.10:668][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.03-16.54.10:750][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.03-16.54.10:762][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.03-16.54.10:775][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.03-16.54.10:811][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.03-16.54.10:811][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.03-16.54.11:500][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.03-16.54.12:111][  0]LogDerivedDataCache: Loaded boot cache 0.61s 53MB C:/Users/Zane/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.10.03-16.54.12:111][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Zane/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.10.03-16.54.12:111][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Zane/Documents/Unreal Projects/MyProject3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.03-16.54.12:111][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.03-16.54.12:111][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Zane/Documents/Unreal Projects/MyProject3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.03-16.54.12:111][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.03-16.54.12:280][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.03-16.54.12:291][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zane/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.03-16.54.16:118][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.03-16.54.16:207][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.10.03-16.54.16:207][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.10.03-16.54.16:252][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.03-16.54.16:252][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.03-16.54.16:862][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.03-16.54.48:195][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.03-16.54.53:178][  0]SourceControl: Info Source control is disabled
+[2015.10.03-16.54.54:452][  0]SourceControl: Info Source control is disabled
+[2015.10.03-16.54.54:482][  0]SourceControl: Info Source control is disabled
+[2015.10.03-16.54.54:526][  0]SourceControl: Info Source control is disabled
+[2015.10.03-16.54.55:385][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.10.03-16.54.55:385][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.10.03-16.54.55:545][  0]LogEngine: Initializing Engine...
+[2015.10.03-16.54.55:547][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.10.03-16.54.55:619][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.10.03-16.54.55:815][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.03-16.54.55:861][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.03-16.54.55:869][  0]LogInit: FAudioDevice initialized.
+[2015.10.03-16.54.55:910][  0]LogDerivedDataCache: Saved boot cache 0.04s 53MB C:/Users/Zane/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.10.03-16.54.55:918][  0]LogInit: Texture streaming: Disabled
+[2015.10.03-16.54.56:194][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.03-16.54.56:194][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.10.03-16.54.56:194][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 9cb56b174d5077bbf1ceb38939ed46c4|1b7933b493ec4b32914f7af7f3cb99a8|ebeaf058-ca58-4938-a6da-10da74e1d320
+[2015.10.03-16.54.56:194][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.03-16.54.56:354][  0]LogInit: Transaction tracking system initialized
+[2015.10.03-16.54.57:210][  0]BlueprintLog: New page: Editor Load
+[2015.10.03-16.54.57:352][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2015.10.03-16.54.57:352][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.10.03-16.55.08:531][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.10.03-16.55.08:532][  0]LogConsoleResponse:Display: 
+[2015.10.03-16.55.10:999][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.03-16.55.13:529][  0]SourceControl: Info Source control is disabled
+[2015.10.03-16.55.13:529][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Zane/Documents/Unreal Projects/MyProject3/Content/FlyingBP/Maps/FlyingExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.03-16.55.13:597][  0]LightingResults: New page: Lighting Build
+[2015.10.03-16.55.13:610][  0]MapCheck: New page: Map Check
+[2015.10.03-16.55.13:610][  0]LightingResults: New page: Lighting Build
+[2015.10.03-16.55.13:624][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C474E309A0
+[2015.10.03-16.55.24:698][  0]LogMaterial: Missing cached shader map for material Red, compiling. 
+[2015.10.03-16.55.25:382][  0]LogStaticMesh: Building static mesh Feisar_Ship...
+[2015.10.03-16.55.26:044][  0]LogStaticMesh: Built static mesh [0.662517.2s] /Game/FlyingBP/Blueprints/Ships/Feisar_Ship.Feisar_Ship
+[2015.10.03-16.55.26:483][  0]LogTexture:Display: Building textures: specular (AutoDXT)
+[2015.10.03-16.55.27:429][  0]LogTexture:Display: Building textures: left (AutoDXT)
+[2015.10.03-16.55.27:432][  0]LogTexture:Display: Building textures: right2 (AutoDXT)
+[2015.10.03-16.55.27:470][  0]LogTexture:Display: Building textures: left2 (AutoDXT)
+[2015.10.03-16.55.27:937][  0]LogMaterial: Missing cached shader map for material M_explosion_subUV, compiling. 
+[2015.10.03-16.55.27:980][  0]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Particles/Materials/M_explosion_subUV.M_explosion_subUV for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.03-16.55.27:980][  0]LogMaterial:Warning: 	(Node ParticleSubUV) Missing ParticleSubUV input texture
+[2015.10.03-16.55.28:033][  0]LogMaterial: Missing cached shader map for material M_Burst, compiling. 
+[2015.10.03-16.55.28:034][  0]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Particles/Materials/M_Burst.M_Burst for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.03-16.55.28:034][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.03-16.55.28:072][  0]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling. 
+[2015.10.03-16.55.28:073][  0]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Particles/Materials/M_smoke_subUV.M_smoke_subUV for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.03-16.55.28:073][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.03-16.55.28:073][  0]LogMaterial:Warning: 	(Node ParticleSubUV) Missing ParticleSubUV input texture
+[2015.10.03-16.55.28:322][  0]LogMaterial: Missing cached shader map for material M_Brick_Cut_Stone, compiling. 
+[2015.10.03-16.55.28:323][  0]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/M_Brick_Cut_Stone.M_Brick_Cut_Stone for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.03-16.55.28:323][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.03-16.55.28:358][  0]LogMaterial: Missing cached shader map for material M_Concrete_Grime, compiling. 
+[2015.10.03-16.55.28:359][  0]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/M_Concrete_Grime.M_Concrete_Grime for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.03-16.55.28:359][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.03-16.55.28:703][  0]LogMaterial: Missing cached shader map for material M_Tech_Hex_Tile_Pulse, compiling. 
+[2015.10.03-16.55.28:704][  0]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.M_Tech_Hex_Tile_Pulse for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.03-16.55.28:704][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.03-16.55.28:751][  0]LogMaterial: Missing cached shader map for material M_Brick_Clay_New, compiling. 
+[2015.10.03-16.55.28:751][  0]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/M_Brick_Clay_New.M_Brick_Clay_New for platform PCD3D_SM5, Default Material will be used in game.
+[2015.10.03-16.55.28:751][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.10.03-16.55.28:796][  0]LogTexture:Display: Building textures: Grass (AutoDXT)
+[2015.10.03-16.55.29:192][  0]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.10.03-16.55.29:225][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.03-16.55.29:234][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.03-16.55.29:288][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.267ms to complete.
+[2015.10.03-16.55.29:288][  0]LogFileHelpers: Loading map 'FlyingExampleMap' took 15.758
+[2015.10.03-16.55.29:628][  0]LogCollectionManager: Loaded 0 collections in 0.004207 seconds
+[2015.10.03-16.55.29:641][  0]LogContentBrowser: Native class hierarchy populated in 0.0128 seconds. Added 1792 classes and 301 folders.
+[2015.10.03-16.55.29:818][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.10.03-16.55.30:416][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.10.03-16.55.30:445][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.10.03-16.55.30:613][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.03-16.55.30:614][  0]LogD3D11RHI: InitD3DDevice
+[2015.10.03-16.55.30:627][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.03-16.55.30:650][  0]LogLoad: Full Startup: 92.26 seconds (BP compile: 3.87 seconds)
+[2015.10.03-16.55.30:903][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.03-16.55.30:980][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.03-16.55.31:247][  0]LogRenderer: Reallocating scene render targets to support 816x440 (Frame:2).
+[2015.10.03-16.55.32:354][  9]LogAssetRegistry: Asset discovery search completed in 35.0130 seconds
+[2015.10.03-16.55.43:031][631]LogD3D11RHI: InitD3DDevice
+[2015.10.03-16.55.44:040][679]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.03-16.55.44:041][679]LogPlayLevel: [PIE] Compiling FlyingExampleMap before PIE...
+[2015.10.03-16.55.44:238][679]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement66D8DC0641232C31C6727CA3B8C21904) Not registered. Aborting.
+[2015.10.03-16.55.44:437][679]LogPlayLevel: PIE:  Blueprint regeneration took 397 ms (1 blueprints)
+[2015.10.03-16.55.44:537][679]PIE: New page: PIE session: FlyingExampleMap (Oct 3, 2015, 8:55:44 AM)
+[2015.10.03-16.55.44:537][679]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2015.10.03-16.55.44:582][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044761s)
+[2015.10.03-16.55.44:584][679]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.10.03-16.55.44:587][679]LogPlayLevel: PIE: World Init took: (0.004220s)
+[2015.10.03-16.55.44:587][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.050197s)
+[2015.10.03-16.55.44:611][679]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.03-16.55.44:621][679]LogInit: FAudioDevice initialized.
+[2015.10.03-16.55.44:694][679]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.10.03-16.55.44:698][679]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 60) at 2015.10.03-12.55.44
+[2015.10.03-16.55.44:698][679]LogActor:Warning: GameSession /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-16.55.44:698][679]LogActor:Warning: GameNetworkManager /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-16.55.44:723][679]LogWorld: Bringing up level for play took: 0.027192
+[2015.10.03-16.55.46:136][679]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 1.837
+[2015.10.03-16.55.46:204][679]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.55.46:299][680]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.55.47:937][742]Cmd: RestartLEvel
+[2015.10.03-16.55.48:075][743]LogNet: Browse: /Game/FlyingBP/Maps/FlyingExampleMap?restart
+[2015.10.03-16.55.48:083][743]LogLoad: LoadMap: /Game/FlyingBP/Maps/FlyingExampleMap
+[2015.10.03-16.55.48:164][743]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C47770E5C0
+[2015.10.03-16.55.48:165][743]Cmd: MEM
+[2015.10.03-16.55.48:185][743]LogMemory: Platform Memory Stats for Windows
+[2015.10.03-16.55.48:185][743]LogMemory: Process Physical Memory: 545.89 MB used, 578.90 MB peak
+[2015.10.03-16.55.48:185][743]LogMemory: Process Virtual Memory: 450.43 MB used, 505.98 MB peak
+[2015.10.03-16.55.48:185][743]LogMemory: Physical Memory: 6425.66 MB used, 8100.97 MB total
+[2015.10.03-16.55.48:185][743]LogMemory: Virtual Memory: 1129.03 MB used, 134217728.00 MB total
+[2015.10.03-16.55.48:185][743]LogMemory: 
+[2015.10.03-16.55.48:185][743]Allocator Stats for TBB: (not implemented)
+[2015.10.03-16.55.48:185][743]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2015.10.03-16.55.48:228][743]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042830s)
+[2015.10.03-16.55.48:229][743]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.10.03-16.55.48:237][743]LogPlayLevel: PIE: World Init took: (0.009245s)
+[2015.10.03-16.55.48:237][743]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.052316s)
+[2015.10.03-16.55.48:237][743]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.10.03-16.55.48:240][743]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 60) at 2015.10.03-12.55.48
+[2015.10.03-16.55.48:240][743]LogActor:Warning: GameSession /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-16.55.48:240][743]LogActor:Warning: GameNetworkManager /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-16.55.48:241][743]LogWorld: Bringing up level for play took: 0.001970
+[2015.10.03-16.55.48:318][743]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.55.48:338][744]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.55.48:362][745]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.55.48:383][746]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.55.48:402][747]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.55.48:421][748]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.55.48:438][749]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.55.48:454][750]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.55.48:470][751]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.55.48:487][752]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.55.48:503][753]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.55.48:520][754]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.55.48:536][755]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.55.48:553][756]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.55.48:570][757]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.55.48:586][758]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.55.48:604][759]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.55.48:620][760]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.55.48:637][761]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.55.48:654][762]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.55.48:700][763]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:236][740]Cmd: RestartLEvel
+[2015.10.03-16.56.39:252][741]LogNet: Browse: /Game/FlyingBP/Maps/FlyingExampleMap?restart
+[2015.10.03-16.56.39:267][741]LogLoad: LoadMap: /Game/FlyingBP/Maps/FlyingExampleMap
+[2015.10.03-16.56.39:303][741]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C477746A20
+[2015.10.03-16.56.39:322][741]Cmd: MEM
+[2015.10.03-16.56.39:345][741]LogMemory: Platform Memory Stats for Windows
+[2015.10.03-16.56.39:345][741]LogMemory: Process Physical Memory: 559.10 MB used, 578.90 MB peak
+[2015.10.03-16.56.39:345][741]LogMemory: Process Virtual Memory: 461.71 MB used, 505.98 MB peak
+[2015.10.03-16.56.39:345][741]LogMemory: Physical Memory: 6421.83 MB used, 8100.97 MB total
+[2015.10.03-16.56.39:345][741]LogMemory: Virtual Memory: 1129.13 MB used, 134217728.00 MB total
+[2015.10.03-16.56.39:345][741]LogMemory: 
+[2015.10.03-16.56.39:345][741]Allocator Stats for TBB: (not implemented)
+[2015.10.03-16.56.39:345][741]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2015.10.03-16.56.39:395][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049532s)
+[2015.10.03-16.56.39:396][741]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.10.03-16.56.39:418][741]LogPlayLevel: PIE: World Init took: (0.023002s)
+[2015.10.03-16.56.39:418][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.072799s)
+[2015.10.03-16.56.39:418][741]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.10.03-16.56.39:421][741]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 60) at 2015.10.03-12.56.39
+[2015.10.03-16.56.39:421][741]LogActor:Warning: GameSession /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-16.56.39:422][741]LogActor:Warning: GameNetworkManager /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-16.56.39:422][741]LogWorld: Bringing up level for play took: 0.002240
+[2015.10.03-16.56.39:491][741]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:504][742]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:528][743]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:545][744]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:567][745]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:585][746]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:605][747]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:624][748]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:649][749]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:668][750]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:687][751]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:703][752]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:723][753]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:763][754]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:784][755]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:805][756]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:822][757]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:847][758]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:863][759]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:884][760]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:902][761]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:920][762]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:938][763]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:958][764]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.39:981][765]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:004][766]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:020][767]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:037][768]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:058][769]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:081][770]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:098][771]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:118][772]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:137][773]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:153][774]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:170][775]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:187][776]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:202][777]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:219][778]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:239][779]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:255][780]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:272][781]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:292][782]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:318][783]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:343][784]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:370][785]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:398][786]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:420][787]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:447][788]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:473][789]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:496][790]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:521][791]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:547][792]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:571][793]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:597][794]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:621][795]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:648][796]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:670][797]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:695][798]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:720][799]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.40:743][800]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.41:100][802]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C4777459E0
+[2015.10.03-16.56.42:122][854]LogD3D11RHI: InitD3DDevice
+[2015.10.03-16.56.49:210][265]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.03-16.56.49:210][265]LogPlayLevel: [PIE] Compiling FlyingExampleMap before PIE...
+[2015.10.03-16.56.49:401][265]LogPlayLevel: PIE:  Blueprint regeneration took 191 ms (1 blueprints)
+[2015.10.03-16.56.49:406][265]PIE: New page: PIE session: FlyingExampleMap (Oct 3, 2015, 8:56:49 AM)
+[2015.10.03-16.56.49:406][265]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap
+[2015.10.03-16.56.49:456][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049689s)
+[2015.10.03-16.56.49:587][265]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.10.03-16.56.49:588][265]LogPlayLevel: PIE: World Init took: (0.131689s)
+[2015.10.03-16.56.49:588][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap (0.181691s)
+[2015.10.03-16.56.49:613][265]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.03-16.56.49:621][265]LogInit: FAudioDevice initialized.
+[2015.10.03-16.56.49:644][265]LogD3D11RHI: InitD3DDevice
+[2015.10.03-16.56.49:687][265]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.10.03-16.56.49:692][265]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 60) at 2015.10.03-12.56.49
+[2015.10.03-16.56.49:692][265]LogActor:Warning: GameSession /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-16.56.49:693][265]LogActor:Warning: GameNetworkManager /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-16.56.49:693][265]LogWorld: Bringing up level for play took: 0.003054
+[2015.10.03-16.56.49:695][265]LogInit: WinSock: Socket queue 131072 / 131072
+[2015.10.03-16.56.50:209][265]LogInit: WinSock: I am Loki (192.168.0.5:0)
+[2015.10.03-16.56.50:209][265]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2015.10.03-16.56.50:325][265]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap 0.026
+[2015.10.03-16.56.50:329][265]PIE: New page: PIE session: FlyingExampleMap (Oct 3, 2015, 8:56:50 AM)
+[2015.10.03-16.56.50:337][265]LogD3D11RHI: InitD3DDevice
+[2015.10.03-16.56.50:374][265]LogNet: Browse: 127.0.0.1//Game/FlyingBP/Maps/FlyingExampleMap
+[2015.10.03-16.56.50:375][265]LogInit: WinSock: Socket queue 32768 / 32768
+[2015.10.03-16.56.50:376][265]LogNet: Game client on port 7777, rate 10000
+[2015.10.03-16.56.50:376][265]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2634408, ProjectName: myproject3, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 8, LocalNetworkVersion: 3103236203
+[2015.10.03-16.56.50:397][265]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/FlyingExampleMap 0.099
+[2015.10.03-16.56.50:432][265]LogNet: NotifyAcceptingConnection: Server FlyingExampleMap accept
+[2015.10.03-16.56.50:432][265]LogNet: Open FlyingExampleMap 10/03/15 12:56:50 127.0.0.1
+[2015.10.03-16.56.50:432][265]LogNet: Added client connection.  Remote address = 127.0.0.1:59726
+[2015.10.03-16.56.50:432][265]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap: Accepted
+[2015.10.03-16.56.50:432][265]LogNet: Remote platform little endian=1
+[2015.10.03-16.56.50:432][265]LogNet: This platform little endian=1
+[2015.10.03-16.56.50:432][265]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2634408, ProjectName: myproject3, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 8, LocalNetworkVersion: 3103236203
+[2015.10.03-16.56.50:432][265]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.50:452][265]LogRenderer: Reallocating scene render targets to support 1296x760 (Frame:3860).
+[2015.10.03-16.56.50:554][266]LogNet: Login request: /Game/FlyingBP/Maps/FlyingExampleMap userId: Invalid
+[2015.10.03-16.56.50:555][266]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.50:559][266]LogNet: Welcomed by server (Level: /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap, Game: /Game/FlyingBP/Blueprints/FlyingGameMode.FlyingGameMode_C)
+[2015.10.03-16.56.50:660][266]LogLoad: LoadMap: 127.0.0.1//Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap?game=/Game/FlyingBP/Blueprints/FlyingGameMode.FlyingGameMode_C
+[2015.10.03-16.56.50:680][266]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C4777445E0
+[2015.10.03-16.56.50:690][266]Cmd: MEM
+[2015.10.03-16.56.50:717][266]LogMemory: Platform Memory Stats for Windows
+[2015.10.03-16.56.50:717][266]LogMemory: Process Physical Memory: 584.29 MB used, 588.74 MB peak
+[2015.10.03-16.56.50:717][266]LogMemory: Process Virtual Memory: 485.24 MB used, 505.98 MB peak
+[2015.10.03-16.56.50:717][266]LogMemory: Physical Memory: 6516.17 MB used, 8100.97 MB total
+[2015.10.03-16.56.50:717][266]LogMemory: Virtual Memory: 1154.22 MB used, 134217728.00 MB total
+[2015.10.03-16.56.50:717][266]LogMemory: 
+[2015.10.03-16.56.50:717][266]Allocator Stats for TBB: (not implemented)
+[2015.10.03-16.56.50:718][266]LogLinker: Can't find file for asset '/Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap' while loading NULL.
+[2015.10.03-16.56.50:773][266]LogWorld: PIE: Copying PIE streaming level from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_2_FlyingExampleMap.FlyingExampleMap. OwningWorld: None
+[2015.10.03-16.56.50:775][266]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.10.03-16.56.50:782][266]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_2_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 60) at 2015.10.03-12.56.50
+[2015.10.03-16.56.50:782][266]LogWorld: Bringing up level for play took: 0.002151
+[2015.10.03-16.56.50:824][267]LogNet: Client netspeed is 10000
+[2015.10.03-16.56.50:824][267]LogNet: Join request: /Game/FlyingBP/Maps/FlyingExampleMap?SplitscreenCount=1
+[2015.10.03-16.56.50:830][267]LogNet: Join succeeded: 260
+[2015.10.03-16.56.50:831][267]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.50:920][268]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.50:993][269]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:045][270]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:088][271]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:134][272]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:181][273]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:224][274]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:268][275]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:319][276]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:366][277]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:405][278]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:407][278]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:450][279]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:451][279]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:489][280]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:491][280]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:531][281]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:532][281]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:572][282]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:575][282]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:618][283]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:620][283]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:671][284]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:672][284]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:717][285]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:719][285]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:755][286]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:758][286]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:800][287]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:802][287]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:840][288]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:843][288]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:881][289]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:883][289]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:919][290]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:920][290]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:966][291]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.51:967][291]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:007][292]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:011][292]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:052][293]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:053][293]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:090][294]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:101][294]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:139][295]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:142][295]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:188][296]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:190][296]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:240][297]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:242][297]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:289][298]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:291][298]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:341][299]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:345][299]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:389][300]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:390][300]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:438][301]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:439][301]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:483][302]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:484][302]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:523][303]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:524][303]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:569][304]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:570][304]Cmd: RestartLEvel
+[2015.10.03-16.56.52:571][304]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:619][305]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:622][305]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:669][306]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:670][306]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:713][307]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:716][307]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:756][308]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:757][308]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:801][309]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:803][309]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:846][310]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:848][310]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:885][311]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:926][312]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.52:974][313]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.53:017][314]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.53:058][315]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.53:102][316]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.53:142][317]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.53:185][318]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.53:225][319]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.53:267][320]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.53:309][321]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.53:351][322]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.53:391][323]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.53:432][324]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.53:474][325]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.53:519][326]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.53:559][327]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.53:601][328]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.56.55:592][374]Cmd: RestartLEvel
+[2015.10.03-16.56.57:959][429]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2015.10.03-16.57.00:535][429]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.10.03-16.57.00:535][429]LogNet: UNetConnection::Close: Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:59726, Time: 2015.10.03-16.57.00
+[2015.10.03-16.57.00:535][429]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_1
+[2015.10.03-16.57.00:535][429]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.10.03-16.57.00:535][429]LogNet: UNetConnection::Close: Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2015.10.03-16.57.00
+[2015.10.03-16.57.00:535][429]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_0
+[2015.10.03-16.57.00:540][429]LogExit: GameNetDriver None shut down
+[2015.10.03-16.57.00:542][429]LogExit: GameNetDriver None shut down
+[2015.10.03-16.57.00:542][429]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C465B6A200
+[2015.10.03-16.57.00:582][430]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C477744180
+[2015.10.03-16.57.02:293][515]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.03-16.57.02:293][515]LogPlayLevel: [PIE] Compiling FlyingExampleMap before PIE...
+[2015.10.03-16.57.02:367][515]LogPlayLevel: PIE:  Blueprint regeneration took 74 ms (1 blueprints)
+[2015.10.03-16.57.02:372][515]PIE: New page: PIE session: FlyingExampleMap (Oct 3, 2015, 8:57:02 AM)
+[2015.10.03-16.57.02:373][515]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap
+[2015.10.03-16.57.02:406][515]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033101s)
+[2015.10.03-16.57.02:407][515]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.10.03-16.57.02:409][515]LogPlayLevel: PIE: World Init took: (0.002645s)
+[2015.10.03-16.57.02:409][515]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap (0.036032s)
+[2015.10.03-16.57.02:436][515]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.03-16.57.02:443][515]LogInit: FAudioDevice initialized.
+[2015.10.03-16.57.02:451][515]LogD3D11RHI: InitD3DDevice
+[2015.10.03-16.57.02:501][515]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.10.03-16.57.02:505][515]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 60) at 2015.10.03-12.57.02
+[2015.10.03-16.57.02:505][515]LogActor:Warning: GameSession /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-16.57.02:505][515]LogActor:Warning: GameNetworkManager /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-16.57.02:505][515]LogWorld: Bringing up level for play took: 0.002013
+[2015.10.03-16.57.02:506][515]LogInit: WinSock: Socket queue 131072 / 131072
+[2015.10.03-16.57.02:507][515]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2015.10.03-16.57.02:583][515]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap 0.284
+[2015.10.03-16.57.02:591][515]PIE: New page: PIE session: FlyingExampleMap (Oct 3, 2015, 8:57:02 AM)
+[2015.10.03-16.57.02:605][515]LogD3D11RHI: InitD3DDevice
+[2015.10.03-16.57.02:656][515]LogNet: Browse: 127.0.0.1//Game/FlyingBP/Maps/FlyingExampleMap
+[2015.10.03-16.57.02:657][515]LogInit: WinSock: Socket queue 32768 / 32768
+[2015.10.03-16.57.02:657][515]LogNet: Game client on port 7777, rate 10000
+[2015.10.03-16.57.02:658][515]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2634408, ProjectName: myproject3, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 8, LocalNetworkVersion: 3103236203
+[2015.10.03-16.57.02:697][515]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/FlyingExampleMap 0.399
+[2015.10.03-16.57.02:745][515]LogNet: NotifyAcceptingConnection: Server FlyingExampleMap accept
+[2015.10.03-16.57.02:745][515]LogNet: Open FlyingExampleMap 10/03/15 12:57:02 127.0.0.1
+[2015.10.03-16.57.02:745][515]LogNet: Added client connection.  Remote address = 127.0.0.1:59728
+[2015.10.03-16.57.02:745][515]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap: Accepted
+[2015.10.03-16.57.02:745][515]LogNet: Remote platform little endian=1
+[2015.10.03-16.57.02:745][515]LogNet: This platform little endian=1
+[2015.10.03-16.57.02:745][515]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2634408, ProjectName: myproject3, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 8, LocalNetworkVersion: 3103236203
+[2015.10.03-16.57.02:745][515]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.02:843][516]LogNet: Login request: /Game/FlyingBP/Maps/FlyingExampleMap userId: Invalid
+[2015.10.03-16.57.02:843][516]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.02:845][516]LogNet: Welcomed by server (Level: /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap, Game: /Game/FlyingBP/Blueprints/FlyingGameMode.FlyingGameMode_C)
+[2015.10.03-16.57.02:924][516]LogLoad: LoadMap: 127.0.0.1//Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap?game=/Game/FlyingBP/Blueprints/FlyingGameMode.FlyingGameMode_C
+[2015.10.03-16.57.02:941][516]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C4778719E0
+[2015.10.03-16.57.02:961][516]Cmd: MEM
+[2015.10.03-16.57.02:990][516]LogMemory: Platform Memory Stats for Windows
+[2015.10.03-16.57.02:990][516]LogMemory: Process Physical Memory: 605.92 MB used, 618.32 MB peak
+[2015.10.03-16.57.02:990][516]LogMemory: Process Virtual Memory: 507.36 MB used, 522.95 MB peak
+[2015.10.03-16.57.02:990][516]LogMemory: Physical Memory: 6579.30 MB used, 8100.97 MB total
+[2015.10.03-16.57.02:990][516]LogMemory: Virtual Memory: 1185.10 MB used, 134217728.00 MB total
+[2015.10.03-16.57.02:990][516]LogMemory: 
+[2015.10.03-16.57.02:990][516]Allocator Stats for TBB: (not implemented)
+[2015.10.03-16.57.02:990][516]LogLinker: Can't find file for asset '/Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap' while loading NULL.
+[2015.10.03-16.57.03:026][516]LogWorld: PIE: Copying PIE streaming level from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_2_FlyingExampleMap.FlyingExampleMap. OwningWorld: None
+[2015.10.03-16.57.03:027][516]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.10.03-16.57.03:032][516]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_2_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 60) at 2015.10.03-12.57.03
+[2015.10.03-16.57.03:033][516]LogWorld: Bringing up level for play took: 0.003610
+[2015.10.03-16.57.03:074][517]LogNet: Client netspeed is 10000
+[2015.10.03-16.57.03:074][517]LogNet: Join request: /Game/FlyingBP/Maps/FlyingExampleMap?SplitscreenCount=1
+[2015.10.03-16.57.03:077][517]LogNet: Join succeeded: 262
+[2015.10.03-16.57.03:077][517]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.03:659][530]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.03:699][531]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.03:743][532]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.03:781][533]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.03:825][534]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.03:865][535]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.03:910][536]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.03:947][537]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.03:989][538]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.04:027][539]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.04:068][540]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.04:110][541]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.04:152][542]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.04:195][543]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.04:232][544]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.04:278][545]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.04:318][546]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.04:361][547]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.04:401][548]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.04:442][549]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.04:485][550]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.04:531][551]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.04:569][552]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.04:614][553]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.04:658][554]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.04:695][555]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.04:734][556]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.04:778][557]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.04:819][558]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.04:861][559]Cmd: RestartLEvel
+[2015.10.03-16.57.04:861][559]Cmd: RestartLEvel
+[2015.10.03-16.57.04:862][559]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.04:900][560]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.04:945][561]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.04:984][562]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.05:027][563]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.05:069][564]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.05:111][565]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.05:147][566]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.05:185][567]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.05:229][568]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.05:270][569]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.05:319][570]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.05:363][571]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.05:401][572]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.05:450][573]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.05:494][574]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.05:533][575]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.05:575][576]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.05:621][577]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.05:673][578]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.05:712][579]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.05:751][580]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.05:796][581]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.05:833][582]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.05:878][583]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.05:917][584]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.05:960][585]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:004][586]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:048][587]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:085][588]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:121][589]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:165][590]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:202][591]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:250][592]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:298][593]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:335][594]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:379][595]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:415][596]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:453][597]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:496][598]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:534][599]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:577][600]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:616][601]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:663][602]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:700][603]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:742][604]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:781][605]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:828][606]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:867][607]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:905][608]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:947][609]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.06:991][610]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.07:031][611]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.07:069][612]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.07:113][613]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.07:159][614]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.07:202][615]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.07:247][616]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.07:291][617]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.07:335][618]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.07:375][619]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.07:418][620]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.07:455][621]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.07:498][622]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.07:537][623]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.07:580][624]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.07:618][625]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.07:666][626]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.07:702][627]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.07:748][628]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.07:787][629]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.07:830][630]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.07:870][631]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.07:915][632]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.07:955][633]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.07:999][634]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.08:041][635]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.08:079][636]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.08:114][637]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.08:150][638]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.08:187][639]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.08:229][640]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.08:265][641]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.08:312][642]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.08:350][643]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.08:387][644]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.08:428][645]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.08:465][646]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.08:501][647]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.08:541][648]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.08:580][649]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.08:615][650]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.08:654][651]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.08:690][652]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.08:730][653]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.08:769][654]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.08:881][655]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2015.10.03-16.57.08:950][655]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.10.03-16.57.08:950][655]LogNet: UNetConnection::Close: Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:59728, Time: 2015.10.03-16.57.08
+[2015.10.03-16.57.08:950][655]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_3
+[2015.10.03-16.57.08:950][655]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.10.03-16.57.08:951][655]LogNet: UNetConnection::Close: Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2015.10.03-16.57.08
+[2015.10.03-16.57.08:951][655]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_2
+[2015.10.03-16.57.08:962][655]LogExit: GameNetDriver None shut down
+[2015.10.03-16.57.08:963][655]LogExit: GameNetDriver None shut down
+[2015.10.03-16.57.08:964][655]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C465B68720
+[2015.10.03-16.57.09:012][656]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C4777471A0
+[2015.10.03-16.57.19:924][152]LogD3D11RHI: InitD3DDevice
+[2015.10.03-16.57.19:988][152]LogD3D11RHI: InitD3DDevice
+[2015.10.03-16.57.20:054][152]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.03-16.57.20:097][152]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.03-16.57.41:098][889]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.03-16.57.41:108][889]LogPlayLevel: [PIE] Compiling FlyingExampleMap before PIE...
+[2015.10.03-16.57.41:173][889]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement66D8DC0641232C31C6727CA3B8C21904) Not registered. Aborting.
+[2015.10.03-16.57.41:225][889]LogPlayLevel: PIE:  Blueprint regeneration took 126 ms (1 blueprints)
+[2015.10.03-16.57.41:231][889]PIE: New page: PIE session: FlyingExampleMap (Oct 3, 2015, 8:57:41 AM)
+[2015.10.03-16.57.41:232][889]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap
+[2015.10.03-16.57.41:286][889]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054481s)
+[2015.10.03-16.57.41:288][889]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.10.03-16.57.41:289][889]LogPlayLevel: PIE: World Init took: (0.002691s)
+[2015.10.03-16.57.41:290][889]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap (0.057934s)
+[2015.10.03-16.57.41:334][889]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.03-16.57.41:344][889]LogInit: FAudioDevice initialized.
+[2015.10.03-16.57.41:351][889]LogD3D11RHI: InitD3DDevice
+[2015.10.03-16.57.41:413][889]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.10.03-16.57.41:417][889]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 60) at 2015.10.03-12.57.41
+[2015.10.03-16.57.41:417][889]LogActor:Warning: GameSession /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-16.57.41:417][889]LogActor:Warning: GameNetworkManager /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-16.57.41:418][889]LogWorld: Bringing up level for play took: 0.002608
+[2015.10.03-16.57.41:419][889]LogInit: WinSock: Socket queue 131072 / 131072
+[2015.10.03-16.57.41:419][889]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
+[2015.10.03-16.57.41:608][889]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap 1.309
+[2015.10.03-16.57.41:615][889]PIE: New page: PIE session: FlyingExampleMap (Oct 3, 2015, 8:57:41 AM)
+[2015.10.03-16.57.41:633][889]LogD3D11RHI: InitD3DDevice
+[2015.10.03-16.57.41:697][889]LogNet: Browse: 127.0.0.1//Game/FlyingBP/Maps/FlyingExampleMap
+[2015.10.03-16.57.41:699][889]LogInit: WinSock: Socket queue 32768 / 32768
+[2015.10.03-16.57.41:699][889]LogNet: Game client on port 7777, rate 10000
+[2015.10.03-16.57.41:699][889]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2634408, ProjectName: myproject3, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 8, LocalNetworkVersion: 3103236203
+[2015.10.03-16.57.41:820][889]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/FlyingExampleMap 1.522
+[2015.10.03-16.57.41:850][889]LogNet: NotifyAcceptingConnection: Server FlyingExampleMap accept
+[2015.10.03-16.57.41:851][889]LogNet: Open FlyingExampleMap 10/03/15 12:57:41 127.0.0.1
+[2015.10.03-16.57.41:851][889]LogNet: Added client connection.  Remote address = 127.0.0.1:56577
+[2015.10.03-16.57.41:851][889]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap: Accepted
+[2015.10.03-16.57.41:851][889]LogNet: Remote platform little endian=1
+[2015.10.03-16.57.41:851][889]LogNet: This platform little endian=1
+[2015.10.03-16.57.41:851][889]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2634408, ProjectName: myproject3, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 8, LocalNetworkVersion: 3103236203
+[2015.10.03-16.57.41:851][889]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.41:978][890]LogNet: Login request: /Game/FlyingBP/Maps/FlyingExampleMap userId: Invalid
+[2015.10.03-16.57.41:979][890]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.41:980][890]LogNet: Welcomed by server (Level: /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap, Game: /Game/FlyingBP/Blueprints/FlyingGameMode.FlyingGameMode_C)
+[2015.10.03-16.57.42:055][890]LogLoad: LoadMap: 127.0.0.1//Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap?game=/Game/FlyingBP/Blueprints/FlyingGameMode.FlyingGameMode_C
+[2015.10.03-16.57.42:084][890]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C40A311E40
+[2015.10.03-16.57.42:097][890]Cmd: MEM
+[2015.10.03-16.57.42:130][890]LogMemory: Platform Memory Stats for Windows
+[2015.10.03-16.57.42:130][890]LogMemory: Process Physical Memory: 670.54 MB used, 674.38 MB peak
+[2015.10.03-16.57.42:130][890]LogMemory: Process Virtual Memory: 566.36 MB used, 567.61 MB peak
+[2015.10.03-16.57.42:130][890]LogMemory: Physical Memory: 6539.96 MB used, 8100.97 MB total
+[2015.10.03-16.57.42:130][890]LogMemory: Virtual Memory: 1241.68 MB used, 134217728.00 MB total
+[2015.10.03-16.57.42:130][890]LogMemory: 
+[2015.10.03-16.57.42:130][890]Allocator Stats for TBB: (not implemented)
+[2015.10.03-16.57.42:131][890]LogLinker: Can't find file for asset '/Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap' while loading NULL.
+[2015.10.03-16.57.42:182][890]LogWorld: PIE: Copying PIE streaming level from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_2_FlyingExampleMap.FlyingExampleMap. OwningWorld: None
+[2015.10.03-16.57.42:183][890]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.10.03-16.57.42:189][890]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_2_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 60) at 2015.10.03-12.57.42
+[2015.10.03-16.57.42:189][890]LogWorld: Bringing up level for play took: 0.002755
+[2015.10.03-16.57.42:231][891]LogNet: Client netspeed is 10000
+[2015.10.03-16.57.42:231][891]LogNet: Join request: /Game/FlyingBP/Maps/FlyingExampleMap?SplitscreenCount=1
+[2015.10.03-16.57.42:285][891]LogNet: Join succeeded: 264
+[2015.10.03-16.57.42:285][891]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.42:331][892]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.42:384][893]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.42:421][894]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.42:470][895]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.42:520][896]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.42:573][897]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.42:630][898]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.42:683][899]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.42:739][900]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.42:798][901]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.42:849][902]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.42:851][902]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.42:896][903]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.42:945][904]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.43:001][905]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.43:053][906]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.43:105][907]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.43:157][908]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.43:207][909]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.43:259][910]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.43:313][911]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.43:357][912]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.43:403][913]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.43:455][914]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.43:502][915]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.43:550][916]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.43:598][917]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.43:650][918]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.43:700][919]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.43:748][920]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.43:793][921]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.43:840][922]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.43:889][923]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.43:939][924]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.43:994][925]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.43:995][925]Cmd: RestartLEvel
+[2015.10.03-16.57.44:046][926]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-16.57.46:042][966]Cmd: RestartLEvel
+[2015.10.03-16.57.57:011][188]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2015.10.03-16.57.57:129][188]LogNet: UChannel::CleanUp: [GameNetDriver] [PlayerController_14] [PlayerController_14]. ChIndex == 0. Closing connection.
+[2015.10.03-16.57.57:129][188]LogNet: UNetConnection::Close: Name: None, Driver: GameNetDriver None, PC: PlayerController_14, Owner: PlayerController_14, Channels: 10, RemoteAddr: 127.0.0.1:7777, Time: 2015.10.03-16.57.57
+[2015.10.03-16.57.57:129][188]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_4
+[2015.10.03-16.57.57:129][188]LogNet: UChannel::CleanUp: [GameNetDriver] [PlayerController_13] [PlayerController_13]. ChIndex == 0. Closing connection.
+[2015.10.03-16.57.57:129][188]LogNet: UNetConnection::Close: Name: None, Driver: GameNetDriver None, PC: PlayerController_13, Owner: PlayerController_13, Channels: 10, RemoteAddr: 127.0.0.1:56577, Time: 2015.10.03-16.57.57
+[2015.10.03-16.57.57:129][188]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_5
+[2015.10.03-16.57.57:133][188]LogExit: GameNetDriver None shut down
+[2015.10.03-16.57.57:134][188]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C463B40540
+[2015.10.03-16.57.57:137][188]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C463B42AC0
+[2015.10.03-16.57.57:137][188]LogExit: GameNetDriver None shut down
+[2015.10.03-16.59.29:442][151]LogD3D11RHI: InitD3DDevice
+[2015.10.03-16.59.35:838][450]LogD3D11RHI: InitD3DDevice
+[2015.10.03-16.59.36:118][450]LogActor:Warning: GameNetworkManager /Engine/Transient.World_4:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-17.01.59:350][ 86]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.02.00:477][150]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.02.01:123][184]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.02.19:427][263]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.02.23:156][482]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.03-17.02.23:198][482]LogPlayLevel: [PIE] Compiling FlyingExampleMap before PIE...
+[2015.10.03-17.02.23:259][482]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement66D8DC0641232C31C6727CA3B8C21904) Not registered. Aborting.
+[2015.10.03-17.02.23:302][482]LogPlayLevel: PIE:  Blueprint regeneration took 145 ms (1 blueprints)
+[2015.10.03-17.02.23:307][482]PIE: New page: PIE session: FlyingExampleMap (Oct 3, 2015, 9:02:23 AM)
+[2015.10.03-17.02.23:308][482]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap
+[2015.10.03-17.02.23:363][482]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055273s)
+[2015.10.03-17.02.23:364][482]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.10.03-17.02.23:364][482]LogPlayLevel: PIE: World Init took: (0.001479s)
+[2015.10.03-17.02.23:365][482]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap (0.057030s)
+[2015.10.03-17.02.23:403][482]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.03-17.02.23:411][482]LogInit: FAudioDevice initialized.
+[2015.10.03-17.02.23:417][482]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.02.23:457][482]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.10.03-17.02.23:460][482]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 60) at 2015.10.03-13.02.23
+[2015.10.03-17.02.23:460][482]LogActor:Warning: GameSession /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-17.02.23:461][482]LogActor:Warning: GameNetworkManager /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-17.02.23:461][482]LogWorld: Bringing up level for play took: 0.002082
+[2015.10.03-17.02.23:462][482]LogInit: WinSock: Socket queue 131072 / 131072
+[2015.10.03-17.02.23:462][482]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 7777
+[2015.10.03-17.02.23:523][482]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap -0.777
+[2015.10.03-17.02.23:529][482]PIE: New page: PIE session: FlyingExampleMap (Oct 3, 2015, 9:02:23 AM)
+[2015.10.03-17.02.23:540][482]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.02.23:585][482]LogNet: Browse: 127.0.0.1//Game/FlyingBP/Maps/FlyingExampleMap
+[2015.10.03-17.02.23:586][482]LogInit: WinSock: Socket queue 32768 / 32768
+[2015.10.03-17.02.23:586][482]LogNet: Game client on port 7777, rate 10000
+[2015.10.03-17.02.23:586][482]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2634408, ProjectName: myproject3, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 8, LocalNetworkVersion: 3103236203
+[2015.10.03-17.02.23:595][482]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/FlyingExampleMap -0.703
+[2015.10.03-17.02.23:651][482]LogNet: NotifyAcceptingConnection: Server FlyingExampleMap accept
+[2015.10.03-17.02.23:652][482]LogNet: Open FlyingExampleMap 10/03/15 13:02:23 127.0.0.1
+[2015.10.03-17.02.23:652][482]LogNet: Added client connection.  Remote address = 127.0.0.1:55670
+[2015.10.03-17.02.23:652][482]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap: Accepted
+[2015.10.03-17.02.23:652][482]LogNet: Remote platform little endian=1
+[2015.10.03-17.02.23:652][482]LogNet: This platform little endian=1
+[2015.10.03-17.02.23:652][482]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2634408, ProjectName: myproject3, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 8, LocalNetworkVersion: 3103236203
+[2015.10.03-17.02.23:652][482]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.23:774][483]LogNet: Login request: /Game/FlyingBP/Maps/FlyingExampleMap userId: Invalid
+[2015.10.03-17.02.23:774][483]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.23:775][483]LogNet: Welcomed by server (Level: /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap, Game: /Game/FlyingBP/Blueprints/FlyingGameMode.FlyingGameMode_C)
+[2015.10.03-17.02.23:842][483]LogLoad: LoadMap: 127.0.0.1//Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap?game=/Game/FlyingBP/Blueprints/FlyingGameMode.FlyingGameMode_C
+[2015.10.03-17.02.23:875][483]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C463A68EA0
+[2015.10.03-17.02.23:886][483]Cmd: MEM
+[2015.10.03-17.02.23:920][483]LogMemory: Platform Memory Stats for Windows
+[2015.10.03-17.02.23:920][483]LogMemory: Process Physical Memory: 708.73 MB used, 726.37 MB peak
+[2015.10.03-17.02.23:920][483]LogMemory: Process Virtual Memory: 606.72 MB used, 624.28 MB peak
+[2015.10.03-17.02.23:920][483]LogMemory: Physical Memory: 6531.71 MB used, 8100.97 MB total
+[2015.10.03-17.02.23:920][483]LogMemory: Virtual Memory: 1280.59 MB used, 134217728.00 MB total
+[2015.10.03-17.02.23:920][483]LogMemory: 
+[2015.10.03-17.02.23:920][483]Allocator Stats for TBB: (not implemented)
+[2015.10.03-17.02.23:920][483]LogLinker: Can't find file for asset '/Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap' while loading NULL.
+[2015.10.03-17.02.23:973][483]LogWorld: PIE: Copying PIE streaming level from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_2_FlyingExampleMap.FlyingExampleMap. OwningWorld: None
+[2015.10.03-17.02.23:975][483]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.10.03-17.02.23:982][483]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_2_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 60) at 2015.10.03-13.02.23
+[2015.10.03-17.02.23:983][483]LogWorld: Bringing up level for play took: 0.004154
+[2015.10.03-17.02.24:039][484]LogNet: Client netspeed is 10000
+[2015.10.03-17.02.24:039][484]LogNet: Join request: /Game/FlyingBP/Maps/FlyingExampleMap?SplitscreenCount=1
+[2015.10.03-17.02.24:045][484]LogNet: Join succeeded: 266
+[2015.10.03-17.02.24:045][484]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.24:106][485]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.24:167][486]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.24:625][496]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.24:670][497]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.24:711][498]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.24:748][499]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.24:784][500]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.24:823][501]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.24:860][502]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.24:896][503]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.24:929][504]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.24:962][505]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.25:001][506]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.25:038][507]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.25:079][508]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.25:114][509]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.25:147][510]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.25:179][511]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.25:215][512]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.25:248][513]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.25:283][514]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.25:320][515]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.25:365][516]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.25:401][517]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.25:435][518]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.25:468][519]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.25:502][520]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.25:535][521]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.25:568][522]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.25:602][523]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.25:782][528]Cmd: RestartLEvel
+[2015.10.03-17.02.26:130][537]Cmd: RestartLEvel
+[2015.10.03-17.02.27:946][586]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2015.10.03-17.02.28:056][586]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.10.03-17.02.28:056][586]LogNet: UNetConnection::Close: Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:55670, Time: 2015.10.03-17.02.28
+[2015.10.03-17.02.28:056][586]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_7
+[2015.10.03-17.02.28:056][586]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.10.03-17.02.28:056][586]LogNet: UNetConnection::Close: Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, PC: None, Owner: None, Channels: 4, RemoteAddr: 127.0.0.1:7777, Time: 2015.10.03-17.02.28
+[2015.10.03-17.02.28:056][586]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_6
+[2015.10.03-17.02.28:067][586]LogExit: GameNetDriver None shut down
+[2015.10.03-17.02.28:068][586]LogExit: GameNetDriver None shut down
+[2015.10.03-17.02.28:069][586]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C40FEC6020
+[2015.10.03-17.02.28:071][586]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C40E292A20
+[2015.10.03-17.02.30:596][734]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.02.31:488][784]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.02.34:343][949]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.02.35:758][ 32]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.02.37:254][120]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.02.41:290][360]BlueprintLog: New page: Compile FlyingExampleMap
+[2015.10.03-17.02.41:417][360]BlueprintEditorCompileResults: Info [0523.01] Compile of FlyingExampleMap successful! [in 113 ms]
+[2015.10.03-17.02.42:786][428]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.03-17.02.42:801][428]LogPlayLevel: [PIE] Compiling FlyingExampleMap before PIE...
+[2015.10.03-17.02.42:897][428]LogPlayLevel: PIE:  Blueprint regeneration took 110 ms (1 blueprints)
+[2015.10.03-17.02.42:903][428]PIE: New page: PIE session: FlyingExampleMap (Oct 3, 2015, 9:02:42 AM)
+[2015.10.03-17.02.42:903][428]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap
+[2015.10.03-17.02.42:950][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046237s)
+[2015.10.03-17.02.42:952][428]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.10.03-17.02.42:954][428]LogPlayLevel: PIE: World Init took: (0.004694s)
+[2015.10.03-17.02.42:955][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap (0.051578s)
+[2015.10.03-17.02.42:993][428]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.03-17.02.43:002][428]LogInit: FAudioDevice initialized.
+[2015.10.03-17.02.43:009][428]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.02.43:051][428]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.10.03-17.02.43:054][428]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 60) at 2015.10.03-13.02.43
+[2015.10.03-17.02.43:054][428]LogActor:Warning: GameSession /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-17.02.43:056][428]LogActor:Warning: GameNetworkManager /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-17.02.43:056][428]LogWorld: Bringing up level for play took: 0.003677
+[2015.10.03-17.02.43:058][428]LogInit: WinSock: Socket queue 131072 / 131072
+[2015.10.03-17.02.43:058][428]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 7777
+[2015.10.03-17.02.43:114][428]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap 0.816
+[2015.10.03-17.02.43:119][428]PIE: New page: PIE session: FlyingExampleMap (Oct 3, 2015, 9:02:43 AM)
+[2015.10.03-17.02.43:130][428]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.02.43:174][428]LogNet: Browse: 127.0.0.1//Game/FlyingBP/Maps/FlyingExampleMap
+[2015.10.03-17.02.43:175][428]LogInit: WinSock: Socket queue 32768 / 32768
+[2015.10.03-17.02.43:175][428]LogNet: Game client on port 7777, rate 10000
+[2015.10.03-17.02.43:175][428]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2634408, ProjectName: myproject3, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 8, LocalNetworkVersion: 3103236203
+[2015.10.03-17.02.43:182][428]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/FlyingExampleMap 0.884
+[2015.10.03-17.02.43:219][428]LogNet: NotifyAcceptingConnection: Server FlyingExampleMap accept
+[2015.10.03-17.02.43:220][428]LogNet: Open FlyingExampleMap 10/03/15 13:02:43 127.0.0.1
+[2015.10.03-17.02.43:220][428]LogNet: Added client connection.  Remote address = 127.0.0.1:51989
+[2015.10.03-17.02.43:220][428]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap: Accepted
+[2015.10.03-17.02.43:220][428]LogNet: Remote platform little endian=1
+[2015.10.03-17.02.43:220][428]LogNet: This platform little endian=1
+[2015.10.03-17.02.43:220][428]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2634408, ProjectName: myproject3, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 8, LocalNetworkVersion: 3103236203
+[2015.10.03-17.02.43:220][428]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.43:324][429]LogNet: Login request: /Game/FlyingBP/Maps/FlyingExampleMap userId: Invalid
+[2015.10.03-17.02.43:325][429]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.43:328][429]LogNet: Welcomed by server (Level: /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap, Game: /Game/FlyingBP/Blueprints/FlyingGameMode.FlyingGameMode_C)
+[2015.10.03-17.02.43:412][429]LogLoad: LoadMap: 127.0.0.1//Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap?game=/Game/FlyingBP/Blueprints/FlyingGameMode.FlyingGameMode_C
+[2015.10.03-17.02.43:443][429]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C40FEC4680
+[2015.10.03-17.02.43:458][429]Cmd: MEM
+[2015.10.03-17.02.43:492][429]LogMemory: Platform Memory Stats for Windows
+[2015.10.03-17.02.43:492][429]LogMemory: Process Physical Memory: 730.36 MB used, 748.71 MB peak
+[2015.10.03-17.02.43:492][429]LogMemory: Process Virtual Memory: 628.54 MB used, 646.70 MB peak
+[2015.10.03-17.02.43:492][429]LogMemory: Physical Memory: 6586.16 MB used, 8100.97 MB total
+[2015.10.03-17.02.43:492][429]LogMemory: Virtual Memory: 1295.95 MB used, 134217728.00 MB total
+[2015.10.03-17.02.43:492][429]LogMemory: 
+[2015.10.03-17.02.43:492][429]Allocator Stats for TBB: (not implemented)
+[2015.10.03-17.02.43:492][429]LogLinker: Can't find file for asset '/Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap' while loading NULL.
+[2015.10.03-17.02.43:548][429]LogWorld: PIE: Copying PIE streaming level from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_2_FlyingExampleMap.FlyingExampleMap. OwningWorld: None
+[2015.10.03-17.02.43:549][429]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.10.03-17.02.43:554][429]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_2_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 60) at 2015.10.03-13.02.43
+[2015.10.03-17.02.43:554][429]LogWorld: Bringing up level for play took: 0.003053
+[2015.10.03-17.02.43:592][430]LogNet: Client netspeed is 10000
+[2015.10.03-17.02.43:592][430]LogNet: Join request: /Game/FlyingBP/Maps/FlyingExampleMap?SplitscreenCount=1
+[2015.10.03-17.02.43:596][430]LogNet: Join succeeded: 268
+[2015.10.03-17.02.43:596][430]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.44:212][443]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.44:263][444]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.44:309][445]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.44:358][446]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.44:418][447]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.44:468][448]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.44:515][449]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.44:563][450]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.44:601][451]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.44:641][452]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.44:687][453]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.44:734][454]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.44:771][455]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.44:815][456]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.44:855][457]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.44:902][458]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.44:941][459]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.44:983][460]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.45:027][461]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.45:070][462]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.45:109][463]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.45:151][464]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.45:190][465]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.45:230][466]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.45:267][467]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.45:305][468]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.45:351][469]Cmd: RestartLEvel
+[2015.10.03-17.02.45:351][469]Cmd: RestartLEvel
+[2015.10.03-17.02.45:352][469]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.45:390][470]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.45:432][471]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.45:470][472]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.45:514][473]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.45:551][474]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.45:589][475]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.45:638][476]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.45:683][477]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.45:725][478]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.45:768][479]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.45:806][480]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.45:852][481]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.45:889][482]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.45:933][483]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.45:973][484]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.46:018][485]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.46:056][486]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.46:099][487]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.46:138][488]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.46:176][489]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.46:218][490]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.46:253][491]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.46:289][492]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.46:330][493]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.46:370][494]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.46:406][495]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.46:447][496]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.46:485][497]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.46:524][498]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.46:566][499]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.46:603][500]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.46:641][501]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.46:686][502]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.46:730][503]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.46:773][504]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.46:813][505]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.46:852][506]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.02.59:646][823]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2015.10.03-17.02.59:734][823]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.10.03-17.02.59:734][823]LogNet: UNetConnection::Close: Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:51989, Time: 2015.10.03-17.02.59
+[2015.10.03-17.02.59:734][823]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_9
+[2015.10.03-17.02.59:735][823]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.10.03-17.02.59:735][823]LogNet: UNetConnection::Close: Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2015.10.03-17.02.59
+[2015.10.03-17.02.59:735][823]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_8
+[2015.10.03-17.02.59:744][823]LogExit: GameNetDriver None shut down
+[2015.10.03-17.02.59:746][823]LogExit: GameNetDriver None shut down
+[2015.10.03-17.02.59:746][823]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C411AF0680
+[2015.10.03-17.02.59:793][824]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C40E291300
+[2015.10.03-17.03.42:590][790]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.06.34:222][578]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.06.55:649][762]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.06.56:818][823]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.06.57:512][859]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.06.59:083][949]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.07.10:099][575]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.07.12:806][702]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.07.59:484][557]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.08.08:466][890]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.08.08:602][890]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement66D8DC0641232C31C6727CA3B8C21904) Not registered. Aborting.
+[2015.10.03-17.08.10:215][890]LogSavePackage: Save=122.457924ms
+[2015.10.03-17.08.10:215][890]LogSavePackage: Moving '../../../../../../Users/Zane/Documents/Unreal Projects/MyProject3/Saved/FlyingExampleMap_Auto1D133E42147637A2FB44CED85B565B997.tmp' to '../../../../../../Users/Zane/Documents/Unreal Projects/MyProject3/Saved/Autosaves/Game/FlyingBP/Maps/FlyingExampleMap_Auto1.umap'
+[2015.10.03-17.08.10:232][890]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlyingBP/Maps/FlyingExampleMap' took 1.630
+[2015.10.03-17.08.10:232][890]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.630
+[2015.10.03-17.08.39:098][ 69]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.03-17.08.39:112][ 69]LogPlayLevel: [PIE] Compiling FlyingExampleMap before PIE...
+[2015.10.03-17.08.39:218][ 69]LogPlayLevel: PIE:  Blueprint regeneration took 120 ms (1 blueprints)
+[2015.10.03-17.08.39:224][ 69]PIE: New page: PIE session: FlyingExampleMap (Oct 3, 2015, 9:08:39 AM)
+[2015.10.03-17.08.39:225][ 69]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap
+[2015.10.03-17.08.39:276][ 69]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051028s)
+[2015.10.03-17.08.39:277][ 69]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.10.03-17.08.39:278][ 69]LogPlayLevel: PIE: World Init took: (0.001870s)
+[2015.10.03-17.08.39:278][ 69]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap (0.053272s)
+[2015.10.03-17.08.39:325][ 69]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.03-17.08.39:334][ 69]LogInit: FAudioDevice initialized.
+[2015.10.03-17.08.39:342][ 69]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.08.39:392][ 69]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.10.03-17.08.39:398][ 69]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 60) at 2015.10.03-13.08.39
+[2015.10.03-17.08.39:398][ 69]LogActor:Warning: GameSession /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-17.08.39:398][ 69]LogActor:Warning: GameNetworkManager /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-17.08.39:398][ 69]LogWorld: Bringing up level for play took: 0.002567
+[2015.10.03-17.08.39:400][ 69]LogInit: WinSock: Socket queue 131072 / 131072
+[2015.10.03-17.08.39:400][ 69]LogNet: GameNetDriver IpNetDriver_10 IpNetDriver listening on port 7777
+[2015.10.03-17.08.39:499][ 69]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap 1.201
+[2015.10.03-17.08.39:505][ 69]PIE: New page: PIE session: FlyingExampleMap (Oct 3, 2015, 9:08:39 AM)
+[2015.10.03-17.08.39:519][ 69]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.08.39:574][ 69]LogNet: Browse: 127.0.0.1//Game/FlyingBP/Maps/FlyingExampleMap
+[2015.10.03-17.08.39:578][ 69]LogInit: WinSock: Socket queue 32768 / 32768
+[2015.10.03-17.08.39:578][ 69]LogNet: Game client on port 7777, rate 10000
+[2015.10.03-17.08.39:578][ 69]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2634408, ProjectName: myproject3, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 8, LocalNetworkVersion: 3103236203
+[2015.10.03-17.08.39:631][ 69]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/FlyingExampleMap 1.332
+[2015.10.03-17.08.39:671][ 69]LogNet: NotifyAcceptingConnection: Server FlyingExampleMap accept
+[2015.10.03-17.08.39:671][ 69]LogNet: Open FlyingExampleMap 10/03/15 13:08:39 127.0.0.1
+[2015.10.03-17.08.39:671][ 69]LogNet: Added client connection.  Remote address = 127.0.0.1:55539
+[2015.10.03-17.08.39:671][ 69]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap.FlyingExampleMap: Accepted
+[2015.10.03-17.08.39:671][ 69]LogNet: Remote platform little endian=1
+[2015.10.03-17.08.39:671][ 69]LogNet: This platform little endian=1
+[2015.10.03-17.08.39:671][ 69]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2634408, ProjectName: myproject3, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 8, LocalNetworkVersion: 3103236203
+[2015.10.03-17.08.39:672][ 69]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.39:773][ 70]LogNet: Login request: /Game/FlyingBP/Maps/FlyingExampleMap userId: Invalid
+[2015.10.03-17.08.39:774][ 70]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.39:777][ 70]LogNet: Welcomed by server (Level: /Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap, Game: /Game/FlyingBP/Blueprints/FlyingGameMode.FlyingGameMode_C)
+[2015.10.03-17.08.39:854][ 70]LogLoad: LoadMap: 127.0.0.1//Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap?game=/Game/FlyingBP/Blueprints/FlyingGameMode.FlyingGameMode_C
+[2015.10.03-17.08.39:890][ 70]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C411AF31A0
+[2015.10.03-17.08.39:906][ 70]Cmd: MEM
+[2015.10.03-17.08.39:949][ 70]LogMemory: Platform Memory Stats for Windows
+[2015.10.03-17.08.39:949][ 70]LogMemory: Process Physical Memory: 750.66 MB used, 764.83 MB peak
+[2015.10.03-17.08.39:949][ 70]LogMemory: Process Virtual Memory: 646.47 MB used, 660.40 MB peak
+[2015.10.03-17.08.39:949][ 70]LogMemory: Physical Memory: 6886.95 MB used, 8100.97 MB total
+[2015.10.03-17.08.39:949][ 70]LogMemory: Virtual Memory: 1313.91 MB used, 134217728.00 MB total
+[2015.10.03-17.08.39:949][ 70]LogMemory: 
+[2015.10.03-17.08.39:949][ 70]Allocator Stats for TBB: (not implemented)
+[2015.10.03-17.08.39:950][ 70]LogLinker: Can't find file for asset '/Game/FlyingBP/Maps/UEDPIE_1_FlyingExampleMap' while loading NULL.
+[2015.10.03-17.08.40:005][ 70]LogWorld: PIE: Copying PIE streaming level from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_2_FlyingExampleMap.FlyingExampleMap. OwningWorld: None
+[2015.10.03-17.08.40:006][ 70]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.10.03-17.08.40:012][ 70]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_2_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 60) at 2015.10.03-13.08.40
+[2015.10.03-17.08.40:012][ 70]LogWorld: Bringing up level for play took: 0.003168
+[2015.10.03-17.08.40:058][ 71]LogNet: Client netspeed is 10000
+[2015.10.03-17.08.40:058][ 71]LogNet: Join request: /Game/FlyingBP/Maps/FlyingExampleMap?SplitscreenCount=1
+[2015.10.03-17.08.40:063][ 71]LogNet: Join succeeded: 270
+[2015.10.03-17.08.40:064][ 71]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:125][ 72]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:169][ 73]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:225][ 74]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:279][ 75]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:325][ 76]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:384][ 77]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:445][ 78]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:496][ 79]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:545][ 80]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:589][ 81]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:636][ 82]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:638][ 82]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:676][ 83]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:679][ 83]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:727][ 84]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:730][ 84]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:770][ 85]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:772][ 85]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:809][ 86]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:813][ 86]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:853][ 87]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:854][ 87]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:894][ 88]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:897][ 88]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:936][ 89]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:937][ 89]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:976][ 90]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.40:979][ 90]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:022][ 91]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:025][ 91]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:070][ 92]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:072][ 92]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:113][ 93]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:117][ 93]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:156][ 94]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:157][ 94]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:203][ 95]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:204][ 95]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:242][ 96]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:245][ 96]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:287][ 97]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:288][ 97]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:326][ 98]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:333][ 98]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:371][ 99]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:373][ 99]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:410][100]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:414][100]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:454][101]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:455][101]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:493][102]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:496][102]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:537][103]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:538][103]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:576][104]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:578][104]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:621][105]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:623][105]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:662][106]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:664][106]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:707][107]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:709][107]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:752][108]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:754][108]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:789][109]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:789][109]Cmd: RestartLEvel
+[2015.10.03-17.08.41:790][109]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:826][110]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:828][110]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:870][111]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:910][112]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:953][113]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.41:995][114]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.42:042][115]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.42:090][116]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.42:130][117]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.42:172][118]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.42:219][119]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.42:257][120]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.42:295][121]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.42:338][122]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.42:377][123]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.42:418][124]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.42:457][125]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.42:497][126]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.42:537][127]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.42:573][128]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.42:614][129]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.42:654][130]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.42:694][131]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.42:735][132]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.42:771][133]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.42:807][134]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.42:843][135]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.42:887][136]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.42:925][137]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.42:965][138]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:005][139]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:043][140]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:083][141]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:121][142]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:157][143]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:193][144]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:235][145]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:275][146]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:316][147]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:355][148]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:394][149]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:434][150]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:473][151]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:511][152]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:553][153]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:588][154]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:627][155]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:666][156]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:710][157]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:752][158]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:788][159]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:822][160]Cmd: RestartLEvel
+[2015.10.03-17.08.43:824][160]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:859][161]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:900][162]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:937][163]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.43:972][164]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:009][165]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:048][166]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:091][167]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:127][168]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:162][169]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:203][170]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:243][171]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:279][172]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:321][173]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:362][174]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:401][175]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:439][176]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:478][177]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:513][178]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:552][179]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:588][180]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:625][181]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:662][182]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:706][183]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:744][184]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:780][185]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:819][186]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:855][187]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:892][188]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:930][189]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.44:970][190]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:004][191]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:042][192]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:078][193]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:116][194]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:156][195]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:193][196]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:230][197]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:270][198]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:307][199]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:342][200]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:380][201]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:421][202]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:458][203]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:496][204]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:533][205]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:571][206]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:608][207]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:646][208]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:688][209]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:728][210]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:764][211]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:808][212]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:844][213]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:878][214]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:914][215]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:955][216]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.45:992][217]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:032][218]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:072][219]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:108][220]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:147][221]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:191][222]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:229][223]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:267][224]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:307][225]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:344][226]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:383][227]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:424][228]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:463][229]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:500][230]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:542][231]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:578][232]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:618][233]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:659][234]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:703][235]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:743][236]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:780][237]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:821][238]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:857][239]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:895][240]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:934][241]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.46:974][242]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:009][243]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:048][244]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:091][245]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:127][246]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:162][247]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:198][248]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:239][249]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:275][250]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:312][251]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:354][252]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:395][253]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:432][254]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:473][255]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:513][256]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:547][257]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:583][258]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:625][259]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:662][260]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:701][261]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:742][262]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:779][263]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:819][264]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:860][265]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:901][266]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:942][267]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.47:979][268]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:017][269]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:060][270]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:097][271]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:139][272]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:175][273]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:211][274]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:247][275]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:283][276]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:323][277]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:363][278]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:398][279]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:437][280]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:480][281]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:517][282]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:561][283]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:600][284]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:644][285]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:684][286]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:731][287]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:772][288]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:811][289]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:849][290]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:890][291]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:926][292]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:962][293]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.48:999][294]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.49:045][295]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.49:079][296]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.49:115][297]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.49:151][298]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.49:193][299]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.49:230][300]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.49:265][301]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.49:300][302]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.49:340][303]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.49:381][304]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.49:416][305]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.08.49:459][306]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.02:120][627]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2015.10.03-17.09.02:207][627]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.10.03-17.09.02:207][627]LogNet: UNetConnection::Close: Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:55539, Time: 2015.10.03-17.09.02
+[2015.10.03-17.09.02:207][627]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_11
+[2015.10.03-17.09.02:207][627]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.10.03-17.09.02:207][627]LogNet: UNetConnection::Close: Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2015.10.03-17.09.02
+[2015.10.03-17.09.02:207][627]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_10
+[2015.10.03-17.09.02:219][627]LogExit: GameNetDriver None shut down
+[2015.10.03-17.09.02:221][627]LogExit: GameNetDriver None shut down
+[2015.10.03-17.09.02:222][627]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C40E293380
+[2015.10.03-17.09.02:223][627]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C40ADB27A0
+[2015.10.03-17.09.03:724][689]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.09.06:645][854]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.03-17.09.06:657][854]LogPlayLevel: [PIE] Compiling FlyingExampleMap before PIE...
+[2015.10.03-17.09.06:763][854]LogPlayLevel: PIE:  Blueprint regeneration took 117 ms (1 blueprints)
+[2015.10.03-17.09.06:763][854]PIE: New page: PIE session: FlyingExampleMap (Oct 3, 2015, 9:09:06 AM)
+[2015.10.03-17.09.06:763][854]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2015.10.03-17.09.06:807][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043663s)
+[2015.10.03-17.09.06:809][854]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.10.03-17.09.06:811][854]LogPlayLevel: PIE: World Init took: (0.003311s)
+[2015.10.03-17.09.06:811][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.047367s)
+[2015.10.03-17.09.06:851][854]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.03-17.09.06:858][854]LogInit: FAudioDevice initialized.
+[2015.10.03-17.09.06:865][854]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.09.06:915][854]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.10.03-17.09.06:919][854]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 60) at 2015.10.03-13.09.06
+[2015.10.03-17.09.06:919][854]LogActor:Warning: GameSession /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-17.09.06:921][854]LogActor:Warning: GameNetworkManager /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-17.09.06:922][854]LogWorld: Bringing up level for play took: 0.004582
+[2015.10.03-17.09.07:005][854]PIE: Info Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 0.705
+[2015.10.03-17.09.07:033][854]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.07:093][855]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.07:174][856]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.07:199][857]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.07:237][858]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.07:274][859]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.07:309][860]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.07:354][861]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.07:402][862]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.07:436][863]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.07:473][864]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.07:507][865]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.07:541][866]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.07:577][867]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.07:614][868]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.07:650][869]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.07:687][870]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.07:725][871]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.07:762][872]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.07:802][873]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.07:841][874]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.07:877][875]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.12:700][ 13]Cmd: RestartLEvel
+[2015.10.03-17.09.12:730][ 14]LogNet: Browse: /Game/FlyingBP/Maps/FlyingExampleMap?restart
+[2015.10.03-17.09.12:760][ 14]LogLoad: LoadMap: /Game/FlyingBP/Maps/FlyingExampleMap
+[2015.10.03-17.09.12:812][ 14]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C40E293600
+[2015.10.03-17.09.12:812][ 14]Cmd: MEM
+[2015.10.03-17.09.12:844][ 14]LogMemory: Platform Memory Stats for Windows
+[2015.10.03-17.09.12:844][ 14]LogMemory: Process Physical Memory: 750.18 MB used, 780.26 MB peak
+[2015.10.03-17.09.12:844][ 14]LogMemory: Process Virtual Memory: 646.75 MB used, 676.28 MB peak
+[2015.10.03-17.09.12:844][ 14]LogMemory: Physical Memory: 6914.20 MB used, 8100.97 MB total
+[2015.10.03-17.09.12:844][ 14]LogMemory: Virtual Memory: 1311.31 MB used, 134217728.00 MB total
+[2015.10.03-17.09.12:844][ 14]LogMemory: 
+[2015.10.03-17.09.12:844][ 14]Allocator Stats for TBB: (not implemented)
+[2015.10.03-17.09.12:844][ 14]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2015.10.03-17.09.12:888][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043454s)
+[2015.10.03-17.09.12:889][ 14]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.10.03-17.09.12:897][ 14]LogPlayLevel: PIE: World Init took: (0.009380s)
+[2015.10.03-17.09.12:898][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.053090s)
+[2015.10.03-17.09.12:898][ 14]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.10.03-17.09.12:901][ 14]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 60) at 2015.10.03-13.09.12
+[2015.10.03-17.09.12:901][ 14]LogActor:Warning: GameSession /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-17.09.12:901][ 14]LogActor:Warning: GameNetworkManager /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-17.09.12:902][ 14]LogWorld: Bringing up level for play took: 0.002444
+[2015.10.03-17.09.12:975][ 14]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.12:990][ 15]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:032][ 16]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:064][ 17]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:094][ 18]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:126][ 19]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:159][ 20]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:188][ 21]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:218][ 22]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:247][ 23]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:276][ 24]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:307][ 25]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:338][ 26]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:373][ 27]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:404][ 28]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:439][ 29]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:470][ 30]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:503][ 31]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:535][ 32]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:566][ 33]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:598][ 34]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:629][ 35]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:659][ 36]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:696][ 37]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:730][ 38]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:760][ 39]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:791][ 40]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:823][ 41]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:853][ 42]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:884][ 43]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:914][ 44]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:944][ 45]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.13:977][ 46]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:009][ 47]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:048][ 48]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:079][ 49]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:110][ 50]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:148][ 51]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:179][ 52]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:208][ 53]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:239][ 54]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:270][ 55]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:301][ 56]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:329][ 57]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:358][ 58]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:392][ 59]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:422][ 60]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:453][ 61]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:481][ 62]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:510][ 63]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:548][ 64]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:583][ 65]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:614][ 66]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:642][ 67]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:672][ 68]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:708][ 69]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:740][ 70]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:772][ 71]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:803][ 72]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:835][ 73]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:863][ 74]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:891][ 75]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:923][ 76]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:953][ 77]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.14:980][ 78]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.15:009][ 79]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.15:045][ 80]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.15:075][ 81]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.15:108][ 82]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.15:146][ 83]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.26:789][444]Cmd: RestartLEvel
+[2015.10.03-17.09.26:814][445]LogNet: Browse: /Game/FlyingBP/Maps/FlyingExampleMap?restart
+[2015.10.03-17.09.26:839][445]LogLoad: LoadMap: /Game/FlyingBP/Maps/FlyingExampleMap
+[2015.10.03-17.09.26:876][445]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C4097239C0
+[2015.10.03-17.09.26:893][445]Cmd: MEM
+[2015.10.03-17.09.26:927][445]LogMemory: Platform Memory Stats for Windows
+[2015.10.03-17.09.26:927][445]LogMemory: Process Physical Memory: 751.77 MB used, 780.26 MB peak
+[2015.10.03-17.09.26:927][445]LogMemory: Process Virtual Memory: 648.26 MB used, 676.28 MB peak
+[2015.10.03-17.09.26:927][445]LogMemory: Physical Memory: 6933.31 MB used, 8100.97 MB total
+[2015.10.03-17.09.26:927][445]LogMemory: Virtual Memory: 1311.31 MB used, 134217728.00 MB total
+[2015.10.03-17.09.26:927][445]LogMemory: 
+[2015.10.03-17.09.26:927][445]Allocator Stats for TBB: (not implemented)
+[2015.10.03-17.09.26:927][445]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2015.10.03-17.09.26:970][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043225s)
+[2015.10.03-17.09.26:972][445]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2015.10.03-17.09.26:980][445]LogPlayLevel: PIE: World Init took: (0.009017s)
+[2015.10.03-17.09.26:980][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.052538s)
+[2015.10.03-17.09.26:980][445]LogWorld: Game class is 'FlyingGameMode_C'
+[2015.10.03-17.09.26:984][445]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 60) at 2015.10.03-13.09.26
+[2015.10.03-17.09.26:984][445]LogActor:Warning: GameSession /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-17.09.26:984][445]LogActor:Warning: GameNetworkManager /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.03-17.09.26:985][445]LogWorld: Bringing up level for play took: 0.002824
+[2015.10.03-17.09.27:058][445]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.27:075][446]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.27:111][447]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.27:147][448]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.27:182][449]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.27:221][450]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.27:256][451]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.27:288][452]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.27:320][453]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.27:355][454]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.27:392][455]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.27:422][456]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.27:455][457]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.27:488][458]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.27:518][459]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.27:548][460]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.27:579][461]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.27:607][462]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.27:637][463]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.27:670][464]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.27:705][465]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.09.27:747][466]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2015.10.03-17.10.02:732][551]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C409722DE0
+[2015.10.03-17.11.46:783][611]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement66D8DC0641232C31C6727CA3B8C21904) Not registered. Aborting.
+[2015.10.03-17.11.46:944][611]LogD3D11RHI: InitD3DDevice
+[2015.10.03-17.11.48:559][611]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.10.03-17.11.48:612][611]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.03-17.11.49:121][612]Cmd: QUIT_EDITOR
+[2015.10.03-17.11.50:179][612]LogExit: Preparing to exit.
+[2015.10.03-17.11.51:865][612]LogExit: Editor shut down
+[2015.10.03-17.11.51:865][612]LogExit: Transaction tracking system shut down
+[2015.10.03-17.11.51:869][612]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C47A97F240
+[2015.10.03-17.11.51:870][612]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C47C0539C0
+[2015.10.03-17.11.51:870][612]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C478EFD440
+[2015.10.03-17.11.51:870][612]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C47770CC20
+[2015.10.03-17.11.51:871][612]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C465B96160
+[2015.10.03-17.11.51:871][612]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C4102828E0
+[2015.10.03-17.11.51:871][612]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C409E354E0
+[2015.10.03-17.11.55:779][612]LogExit: Object subsystem successfully closed.
+[2015.10.03-17.11.58:483][612]LogD3D11RHI: Shutdown
+[2015.10.03-17.11.58:483][612]LogD3D11RHI: CleanupD3DDevice
+[2015.10.03-17.11.58:673][612]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.03-17.11.59:095][612]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (189)
+[2015.10.03-17.11.59:095][612]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.10.03-17.11.59:095][612]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.10.03-17.11.59:095][612]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.10.03-17.11.59:095][612]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.10.03-17.11.59:128][612]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.10.03-17.11.59:175][612]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.10.03-17.11.59:175][612]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.10.03-17.11.59:195][612]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.10.03-17.11.59:237][612]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.10.03-17.11.59:263][612]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.10.03-17.11.59:297][612]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.10.03-17.11.59:297][612]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.10.03-17.11.59:298][612]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.10.03-17.11.59:298][612]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.10.03-17.11.59:298][612]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.10.03-17.11.59:322][612]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.10.03-17.11.59:322][612]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.10.03-17.11.59:322][612]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.10.03-17.11.59:322][612]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.10.03-17.11.59:322][612]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.10.03-17.11.59:349][612]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.10.03-17.11.59:495][612]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.10.03-17.11.59:525][612]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.10.03-17.11.59:525][612]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.10.03-17.11.59:534][612]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.10.03-17.11.59:534][612]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.10.03-17.12.00:336][612]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.10.03-17.12.00:336][612]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.10.03-17.12.00:336][612]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.10.03-17.12.00:336][612]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.10.03-17.12.00:390][612]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.10.03-17.12.00:390][612]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.10.03-17.12.00:457][612]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.10.03-17.12.00:457][612]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.10.03-17.12.00:477][612]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.10.03-17.12.00:477][612]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.10.03-17.12.00:516][612]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.10.03-17.12.00:538][612]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.10.03-17.12.00:558][612]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.10.03-17.12.00:558][612]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.10.03-17.12.00:628][612]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.10.03-17.12.00:628][612]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.10.03-17.12.00:628][612]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.10.03-17.12.00:628][612]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.10.03-17.12.00:818][612]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.10.03-17.12.00:818][612]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.10.03-17.12.00:819][612]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.10.03-17.12.00:852][612]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.10.03-17.12.00:872][612]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.10.03-17.12.00:894][612]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.10.03-17.12.00:894][612]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.10.03-17.12.00:916][612]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.10.03-17.12.00:940][612]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.10.03-17.12.00:955][612]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.10.03-17.12.01:055][612]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.10.03-17.12.01:055][612]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.10.03-17.12.01:055][612]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.10.03-17.12.01:055][612]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.10.03-17.12.01:142][612]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.10.03-17.12.01:158][612]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.10.03-17.12.01:158][612]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.10.03-17.12.01:158][612]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.10.03-17.12.01:178][612]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.10.03-17.12.01:178][612]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.10.03-17.12.01:200][612]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.10.03-17.12.01:339][612]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.10.03-17.12.01:339][612]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.10.03-17.12.01:360][612]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.10.03-17.12.01:360][612]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.10.03-17.12.01:380][612]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.10.03-17.12.01:380][612]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.10.03-17.12.01:380][612]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.10.03-17.12.01:380][612]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.10.03-17.12.01:403][612]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.10.03-17.12.01:403][612]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.10.03-17.12.01:403][612]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.10.03-17.12.01:639][612]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.10.03-17.12.01:651][612]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.10.03-17.12.01:652][612]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.10.03-17.12.01:652][612]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.10.03-17.12.01:652][612]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.10.03-17.12.01:652][612]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.10.03-17.12.01:652][612]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.10.03-17.12.01:779][612]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.10.03-17.12.01:779][612]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.10.03-17.12.01:879][612]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.10.03-17.12.01:956][612]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.10.03-17.12.01:981][612]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.10.03-17.12.01:981][612]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.10.03-17.12.01:989][612]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.10.03-17.12.02:011][612]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.10.03-17.12.02:030][612]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.10.03-17.12.02:049][612]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.10.03-17.12.02:049][612]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.10.03-17.12.02:084][612]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.10.03-17.12.02:220][612]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.10.03-17.12.02:283][612]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.10.03-17.12.02:331][612]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.10.03-17.12.02:331][612]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.10.03-17.12.02:331][612]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.10.03-17.12.02:331][612]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.10.03-17.12.02:378][612]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.10.03-17.12.02:458][612]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.10.03-17.12.02:459][612]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.10.03-17.12.02:459][612]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.10.03-17.12.02:459][612]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.10.03-17.12.02:540][612]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.10.03-17.12.02:540][612]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.10.03-17.12.02:877][612]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.10.03-17.12.02:978][612]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.10.03-17.12.03:286][612]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.10.03-17.12.03:345][612]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.10.03-17.12.03:345][612]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.10.03-17.12.03:602][612]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.10.03-17.12.03:602][612]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.10.03-17.12.03:602][612]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.10.03-17.12.03:867][612]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.10.03-17.12.03:883][612]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.10.03-17.12.04:003][612]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.10.03-17.12.04:003][612]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.10.03-17.12.04:003][612]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.10.03-17.12.04:190][612]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.10.03-17.12.06:511][612]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.10.03-17.12.06:791][612]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.10.03-17.12.06:807][612]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.10.03-17.12.06:807][612]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.10.03-17.12.06:809][612]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.10.03-17.12.06:809][612]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.10.03-17.12.06:809][612]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.10.03-17.12.06:809][612]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.10.03-17.12.06:809][612]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.10.03-17.12.06:809][612]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.10.03-17.12.06:809][612]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.10.03-17.12.06:849][612]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.10.03-17.12.06:849][612]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.10.03-17.12.06:897][612]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.10.03-17.12.06:946][612]LogDerivedDataCache: Shutdown
+[2015.10.03-17.12.06:946][612]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.10.03-17.12.06:965][612]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.10.03-17.12.06:988][612]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.10.03-17.12.07:036][612]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.10.03-17.12.07:036][612]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.10.03-17.12.07:061][612]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.10.03-17.12.07:088][612]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.10.03-17.12.07:088][612]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.10.03-17.12.07:088][612]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.10.03-17.12.07:088][612]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.10.03-17.12.07:088][612]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.10.03-17.12.07:113][612]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.10.03-17.12.07:134][612]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.10.03-17.12.07:134][612]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.10.03-17.12.07:134][612]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.10.03-17.12.07:160][612]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.10.03-17.12.07:191][612]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.10.03-17.12.07:220][612]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.10.03-17.12.07:232][612]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.10.03-17.12.07:232][612]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.03-17.12.07:232][612]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.03-17.12.07:232][612]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.03-17.12.07:232][612]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.03-17.12.07:255][612]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.03-17.12.07:256][612]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.03-17.12.07:273][612]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.03-17.12.07:339][612]LogExit: Exiting.
+[2015.10.03-17.12.07:366][612]Log file closed, 10/03/15 13:12:07
