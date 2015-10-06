@@ -1,1 +1,0 @@
-../../../MyProject3/MyProject3.uproject  /Game/FlyingBP/Maps/FlyingExampleMap -Messaging -SessionId=C142FE8140E4CD4BC201A2AA09D8B8E8 -SessionOwner=Zane -SessionName='Play On Device' -iterative
